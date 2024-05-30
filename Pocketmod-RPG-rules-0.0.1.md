@@ -1,21 +1,31 @@
 # Pocketmod RPG System
 
+<div style="page-break-after: always;"></div>
+
 ## What is this about?
 
 Pocketmod RPG is a TTRPG system where you role-play in a variety of settings, inspired by PbtA.
 
 The main goal of this game is to provide a "dice-less" TTRPG experience you can fit in your pocket. (and play in line at theme parks!) It's rules-lite and uses a single d6 for resolutions using the "dice roller" Pocketmod tool. [see Pocketmod.com](http://pocketmod.com)
 
+<div style="page-break-after: always;"></div>
+
 ## How does it work?
 
-This game is a discussion between the storyteller and the players. The storyteller will help guide the players by creating obstacles when narratively necessary. It is however, the players who mainly drive the story. The characters play using their "moves". Each move has a trigger and an effect and may also trigger other moves. If a character triggers a move immediately perform the move and/or moves and then continue the story.
+This game is a discussion between the GM (a.k.a "Game Master") and the players. The GM will help guide the players by creating obstacles when narratively necessary. It is however, the players who mainly drive the story. The characters play using their "moves". Each move has a trigger and an effect and may also trigger other moves. If a character triggers a move immediately perform the move and/or moves and then continue the story.
 
-```
-Example:
-If a character is to act in a way where the outcome is unknown and the situation is "risky" then this is "The Risky Move". Roll a d6 and check the result on the destiny table. The storyteller fully narrates the outcome. The player then can resist that outcome by using the "That's not what I heard!" basic move to make adjustments on the tables rank. The storyteller then narrates the new outcome.
-```
+> Example:</br>
+> If a character is to act in a way where the outcome is unknown and the situation is "risky" then this is "The Risky Move". Roll a d6 and check the result on the destiny table. The GM fully narrates the outcome. The player then can resist that outcome by using the "That's not what I heard!" basic move to make adjustments on the tables rank. The GM then narrates the new outcome.
 
-### Character Creation
+The GM should ask questions and paint the world. They will also create complications and obstacles for the players to keep things interesting.
+
+### Safety
+
+Before you start a session make sure everyone is comfortable with the tone, topics & themes that may appear. Everyone should also understand the **"Fade to Black" move**.
+
+<div style="page-break-after: always;"></div>
+
+## Character Creation
 
 |                     |                                                         |
 | ------------------- | ------------------------------------------------------- |
@@ -92,6 +102,8 @@ Valiant
 Wise
 Witty
 
+<div style="page-break-after: always;"></div>
+
 #### Negative Tags
 
 Angry
@@ -131,7 +143,11 @@ Volatile
 
 ### Tags Explained
 
-Tags help describe your character and they are also used as a mechanic to change your fate. A tag always has a tier (between 1 & 3). If the outcome of a roll is unfavorable, use the "That's not what I heard!" basic move with one of your tags to change the die result. If a tag ever becomes a tier 0, it is removed and instead becomes a negative tag at -1 tier. Please keep all your tags relevant to the narrative. Be aware that just because you lose a tag like your "animal" tag, doesn't mean you are no longer an animal, it just means you are questioning, or feeling bad about this part of your nature. Tags are regenerated during various moves, so track your tags' tiers separately; so you can always reset them.
+Tags help describe your character and they are also used as a mechanic to change your fate. A tag always has a tier (between 1 & 3). If the outcome of a roll is unfavorable, use the **"That's not what I heard!"** basic move with one of your tags to change the die result. If a tag ever becomes a tier 0, it is removed and instead becomes a negative tag at -1 tier. Please keep all your tags relevant to the narrative.
+
+Be aware that just because you lose a tag like your "animal" tag, doesn't mean you are no longer an animal, it just means you are questioning, or feeling bad about this part of your nature. Tags are regenerated during various moves, so track your tags' tiers separately; so you can always reset them.
+
+<div style="page-break-after: always;"></div>
 
 ### Destiny Table
 
@@ -149,14 +165,14 @@ Most moves have you roll against the destiny table.
 ### Basic Moves
 
 > **The Controlled Move** </br>
-> The character does something where the result is unknown in a controlled environment. (_ex. Nobody's around, there's no alarm system_) Roll 1d6+1, then the storyteller continues.
+> The character does something where the result is unknown in a controlled environment. (_ex. Nobody's around, there's no alarm system_) Roll 1d6+1, then the GM continues.
 
 > **The Risky Move** </br>
-> The character does something where the result is unknown in a risky situation. (_ex. A guard is coming or there's an alarm system_) Roll 1d6, then the storyteller continues.
+> The character does something where the result is unknown in a risky situation. (_ex. A guard is coming or there's an alarm system_) Roll 1d6, then the GM continues.
 > </br>**6**: Great effect, also ( _tag_+1 ) , **1**: ( _tag_-1 )
 
 > **The Desperate Move** </br>
-> The character does something where the result is unknown in a desperate situation. (_ex. A guard is running at you with sword drawn_) Roll 1d6, then the storyteller continues.
+> The character does something where the result is unknown in a desperate situation. (_ex. A guard is running at you with sword drawn_) Roll 1d6, then the GM continues.
 > </br>**6**: Great effect, also ( _tag_+2 ) , **1-3**: ( _tag_-1 )
 
 > **The "That's not what I heard!" Move** </br>
@@ -174,8 +190,13 @@ Most moves have you roll against the destiny table.
 > **The "Remember When?" move** </br>
 > Anytime you really want to do something but you don't have the right tag for it, then use this move. First, Give a quick "flash back" scene proving you have that tag. Then give yourself that temporary tag. Make a note linking that tag to another one of your character tags and set it to the same tier. They now increase and decrease together. If you lose the tag you lose them both, but only one negative tag is created.
 
+> **The "Journey of Transformation" move** </br>
+> Each session a character is given a quest used for advancement in that session. If you create a scene about overcoming your quest, mark it as completed. You will gain a level at the end of the session. _see GM quests_
+
 > **The "Fade to Black" move** </br>
 > Anytime and for any reason (no questions asked) any participant may say "Fade to Black" immediately stopping a scene that is becoming uncomfortable.
+
+<div style="page-break-after: always;"></div>
 
 ## Storybooks
 
@@ -215,6 +236,8 @@ Scheming
 
 **Locations** : The Elderwood, Timber Town, Glimmering Grotto, Thunder Peak
 
+<div style="page-break-after: always;"></div>
+
 ## Somnium Nexus: CyberDream Infiltration
 
 **Premise** : The year is 24XX and you are cyber-punk detectives that can hack into peoples minds for surreal sleuthing inside their dreams. Hacking into someones dreams can help you find clues, but also their internal demons may manifest there. Can you find the clues and solve the mystery before going mad?
@@ -244,6 +267,8 @@ Slow
 Short-Circuited
 
 **Locations** : The Hyperion Gate, Redline Arena, NeonGrid Sector 7, CryoTek BioLabs
+
+<div style="page-break-after: always;"></div>
 
 ## Elder Realms: Retired Adventurers Guild
 
@@ -275,7 +300,34 @@ Tired
 
 **Locations** : Dragon's Rest, Misty Moorlands, Stormwatch Tower, Sacred Grove
 
-## Roll Tables for GM
+<div style="page-break-after: always;"></div>
+
+## Character Quests
+
+> The Hero's Journey: A character embarks on an adventure, faces trials, receives aid, overcomes a climax, and returns transformed.
+
+Before each session create a quest ( _a.k.a goal_ ) for your character Use the following list as inspiration. Feel free to make it vague and fill in the details during play. At the end of the session, if you did the **"Journey of Transformation"** move, gain a level.
+
+1. Identity
+1. Vengeance
+1. Knowledge
+1. Saving Others
+1. Love
+1. Power
+1. Honor
+1. Redemption
+1. Freedom
+1. Survival
+
+<div style="page-break-after: always;"></div>
+
+## GM Guide
+
+Pocketmod RPG should be as low prep a possible. An easy way to prepare for a session is ask questions of the players and look over their characters quests/goals. This should help you formulate what kinda of game the players expect. Then, create a few groups and/or factions with opposing goals. You can pull content from these as needed such as scenarios and NPCs.
+
+<div style="page-break-after: always;"></div>
+
+## Roll Tables & Tools for GM
 
 **The change is a** : Thing
 Entity
