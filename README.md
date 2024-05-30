@@ -300,6 +300,31 @@ Tired
 
 <div style="page-break-after: always;"></div>
 
+## Character Quests
+
+> The Hero's Journey: A character embarks on an adventure, faces trials, receives aid, overcomes a climax, and returns transformed.
+
+Before each session create a quest ( _a.k.a goal_ ) for your character Use the following list as inspiration. Feel free to make it vague and fill in the details during play. At the end of the session, if you did the **"Journey of Transformation"** move, gain a level.
+
+1. Identity
+1. Vengeance
+1. Knowledge
+1. Saving Others
+1. Love
+1. Power
+1. Honor
+1. Redemption
+1. Freedom
+1. Survival
+
+<div style="page-break-after: always;"></div>
+
+## GM Guide
+
+Pocketmod RPG should be as low prep a possible. An easy way to prepare for a session is ask questions of the players and look over their characters quests/goals. This should help you formulate what kinda of game the players expect. Then, create a few groups and/or factions with opposing goals. You can pull content from these as needed such as scenarios and NPCs.
+
+<div style="page-break-after: always;"></div>
+
 ## Roll Tables & Tools for GM
 
 **The change is a** : Thing
@@ -412,22 +437,3 @@ Quality
 1. man
 1. life
 1. want
-
-<div style="page-break-after: always;"></div>
-
-## Character Quests
-
-> The Hero's Journey: A character embarks on an adventure, faces trials, receives aid, overcomes a climax, and returns transformed.
-
-Before each session create a quest for your character targeting one of the following paths. Feel free to make it vague and fill in the details during play. At the end of the session, if you did the **"Journey of Transformation"** move, gain a level.
-
-1. Identity
-1. Vengeance
-1. Knowledge
-1. Saving Others
-1. Love
-1. Power
-1. Honor
-1. Redemption
-1. Freedom
-1. Survival
