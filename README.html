@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="pocketmod-rpg-system">Pocketmod RPG System</h1>
+<div style="page-break-after: always;"></div>
+<h2 id="what-is-this-about">What is this about?</h2>
+<p>Pocketmod RPG is a TTRPG system where you role-play in a variety of settings, inspired by PbtA.</p>
+<p>The main goal of this game is to provide a &quot;dice-less&quot; TTRPG experience you can fit in your pocket. (and play in line at theme parks!) It's rules-lite and uses a single d6 for resolutions using the &quot;dice roller&quot; Pocketmod tool. <a href="http://pocketmod.com">see Pocketmod.com</a></p>
+<div style="page-break-after: always;"></div>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>This game is a discussion between the GM (a.k.a &quot;Game Master&quot;) and the players. The GM will help guide the players by creating obstacles when narratively necessary. It is however, the players who mainly drive the story. The characters play using their &quot;moves&quot;. Each move has a trigger and an effect and may also trigger other moves. If a character triggers a move immediately perform the move and/or moves and then continue the story.</p>
+<blockquote>
+<p>Example:</br>
+If a character is to act in a way where the outcome is unknown and the situation is &quot;risky&quot; then this is &quot;The Risky Move&quot;. Roll a d6 and check the result on the destiny table. The GM fully narrates the outcome. The player then can resist that outcome by using the &quot;That's not what I heard!&quot; basic move to make adjustments on the tables rank. The GM then narrates the new outcome.</p>
+</blockquote>
+<p>The GM should ask questions and paint the world. They will also create complications and obstacles for the players to keep things interesting.</p>
+<h3 id="safety">Safety</h3>
+<p>Before you start a session make sure everyone is comfortable with the tone, topics &amp; themes that may appear. Everyone should also understand the <strong>&quot;Fade to Black&quot; move</strong>.</p>
+<div style="page-break-after: always;"></div>
+<h2 id="character-creation">Character Creation</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td>Your characters name</td>
+</tr>
+<tr>
+<td><strong>Level</strong></td>
+<td>This is the number of character tags you may have</td>
+</tr>
+<tr>
+<td><strong>Character Tags</strong></td>
+<td>Choose several positive tags to describe your character</td>
+</tr>
+<tr>
+<td><strong>Character Quest</strong></td>
+<td>Choose one, when completed level up</td>
+</tr>
+</tbody>
+</table>
+<p>Your starting level is 3. So start with 3 character tags, then make each tag a tier 3. Your &quot;animal&quot; tag is a catch-all and allows you to perform feats your species can naturally perform.</p>
+<h4 id="positive-tags">Positive Tags</h4>
+<p>Adventurous
+Affectionate
+Ambitious
+Artistic
+Assertive
+Athletic
+Brave
+Calm
+Caring
+Charismatic
+Chivalrous
+Compassionate
+Confident
+Conscientious
+Considerate
+Courageous
+Courteous
+Creative
+Decisive
+Dependable
+Determined
+Diplomatic
+Disciplined
+Empathetic
+Energetic
+Enthusiastic
+Faithful
+Flexible
+Friendly
+Gentle
+Honest
+Honorable
+Humble
+Idealistic
+Imaginative
+Independent
+Industrious
+Insightful
+Intelligent
+Inventive
+Kind-hearted
+Knowledgeable
+Leader
+Loyal
+Meticulous
+Nurturing
+Optimistic
+Patient
+Perceptive
+Persistent
+Principled
+Protective
+Quick-witted
+Resilient
+Resourceful
+Respectful
+Selfless
+Spirited
+Supportive
+Tactful
+Valiant
+Wise
+Witty</p>
+<h4 id="negative-tags">Negative Tags</h4>
+<p>Angry
+Frightened
+Guilty
+Hopeless
+Insecure
+Abrasive
+Aloof
+Arrogant
+Burned
+Cold
+Conceited
+Devious
+Envious
+Greedy
+Gullible
+Hurt
+Impulsive
+Jealous
+Moody
+Narcissistic
+Ouch
+Overbearing
+Paranoid
+Pessimistic
+Reckless
+Ruthless
+Sarcastic
+Scheming
+Selfish
+Stubborn
+Suspicious
+Temperamental
+Vindictive
+Volatile</p>
+<h3 id="tags-explained">Tags Explained</h3>
+<p>Tags help describe your character and they are also used as a mechanic to change your fate. A tag always has a tier (between 1 &amp; 3). If the outcome of a roll is unfavorable, use the &quot;That's not what I heard!&quot; basic move with one of your tags to change the die result. If a tag ever becomes a tier 0, it is removed and instead becomes a negative tag at -1 tier. Please keep all your tags relevant to the narrative. Be aware that just because you lose a tag like your &quot;animal&quot; tag, doesn't mean you are no longer an animal, it just means you are questioning, or feeling bad about this part of your nature. Tags are regenerated during various moves, so track your tags' tiers separately; so you can always reset them.</p>
+<h3 id="destiny-table">Destiny Table</h3>
+<p>Most moves have you roll against the destiny table.</p>
+<table>
+<thead>
+<tr>
+<th>Die</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Success, but lesser effect</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Success, but added complication</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Fail, also create/tick a clock</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Fail, also add complication or create/tick a clock</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Fail, also add complication and create/tick a clock</td>
+</tr>
+</tbody>
+</table>
+<h3 id="basic-moves">Basic Moves</h3>
+<blockquote>
+<p><strong>The Controlled Move</strong> </br>
+The character does something where the result is unknown in a controlled environment. (<em>ex. Nobody's around, there's no alarm system</em>) Roll 1d6+1, then the GM continues.</p>
+</blockquote>
+<blockquote>
+<p><strong>The Risky Move</strong> </br>
+The character does something where the result is unknown in a risky situation. (<em>ex. A guard is coming or there's an alarm system</em>) Roll 1d6, then the GM continues.
+</br><strong>6</strong>: Great effect, also ( <em>tag</em>+1 ) , <strong>1</strong>: ( <em>tag</em>-1 )</p>
+</blockquote>
+<blockquote>
+<p><strong>The Desperate Move</strong> </br>
+The character does something where the result is unknown in a desperate situation. (<em>ex. A guard is running at you with sword drawn</em>) Roll 1d6, then the GM continues.
+</br><strong>6</strong>: Great effect, also ( <em>tag</em>+2 ) , <strong>1-3</strong>: ( <em>tag</em>-1 )</p>
+</blockquote>
+<blockquote>
+<p><strong>The &quot;That's not what I heard!&quot; Move</strong> </br>
+Upon consulting the destiny table, if you don't like the result, adjust the result by a least one of your positive tag tiers, then reduce that tag by 1 ( <em>tag</em>-1 ). Try adding this somehow into the story.</p>
+</blockquote>
+<blockquote>
+<p><strong>The Short Rest move</strong> </br>
+Only available once each unique time you are in a controlled environment and out of danger. Increase a tag ( <em>tag+1</em> )</p>
+</blockquote>
+<blockquote>
+<p><strong>The Long Rest move</strong> </br>
+Only available once each morning, after you have slept, in a controlled environment and out of danger. Increase all tags ( all <em>tags+1</em> )</p>
+</blockquote>
+<blockquote>
+<p><strong>The Help Others move</strong> </br>
+You may help another character if they don't like the result of the destiny table. adjust the result by a least one of your positive tag tiers, then reduce that tag by 1 ( <em>tag</em>-1 ). Try adding this somehow into the story.</p>
+</blockquote>
+<blockquote>
+<p><strong>The &quot;Remember When?&quot; move</strong> </br>
+Anytime you really want to do something but you don't have the right tag for it, then use this move. First, Give a quick &quot;flash back&quot; scene proving you have that tag. Then give yourself that temporary tag. Make a note linking that tag to another one of your character tags and set it to the same tier. They now increase and decrease together. If you lose the tag you lose them both, but only one negative tag is created.</p>
+</blockquote>
+<blockquote>
+<p><strong>The &quot;Journey of Transformation&quot; move</strong> </br>
+Each session a character is given a quest used for advancement in that session. If you create a scene about overcoming your quest, mark it as completed. You will gain a level at the end of the session. <em>see GM quests</em></p>
+</blockquote>
+<blockquote>
+<p><strong>The &quot;Fade to Black&quot; move</strong> </br>
+Anytime and for any reason (no questions asked) any participant may say &quot;Fade to Black&quot; immediately stopping a scene that is becoming uncomfortable.</p>
+</blockquote>
+<h2 id="storybooks">Storybooks</h2>
+<p>The following are a series of Storybooks with different settings, moves and mechanics for role-play.</p>
+<h2 id="playfellows-fantasy-familiars">Playfellows: Fantasy Familiars</h2>
+<p><strong>Premise</strong> : In Playfellows, you role-play as anthropomorphic animals in a fairy-tale settings. Each character has a limited ability to draw upon the power of their prince or princess patron for extra-ordinary assistance.</p>
+<h4 id="moves">Moves</h4>
+<blockquote>
+<p><strong>The &quot;Sing-a-Song&quot; move</strong> </br>
+Once per game a character can tap into the power of their patron's ability. The ability is constrained by the lore of that patron. This is a &quot;Desperate Move&quot;.</p>
+</blockquote>
+<p><strong>Positive Tags</strong> :
+Adventurous
+Brave
+Chivalrous
+Courteous
+Imaginative
+Loyal
+Quick-witted
+Selfless
+Spirited
+Valiant
+Wise</p>
+<p><strong>Negative Tags</strong> :
+Angry
+Frightened
+Cold
+Devious
+Envious
+Jealous
+Ouch
+Scheming</p>
+<p><strong>Locations</strong> : The Elderwood, Timber Town, Glimmering Grotto, Thunder Peak</p>
+<h2 id="somnium-nexus-cyberdream-infiltration">Somnium Nexus: CyberDream Infiltration</h2>
+<p><strong>Premise</strong> : The year is 24XX and you are cyber-punk detectives that can hack into peoples minds for surreal sleuthing inside their dreams. Hacking into someones dreams can help you find clues, but also their internal demons may manifest there. Can you find the clues and solve the mystery before going mad?</p>
+<h4 id="moves">Moves</h4>
+<blockquote>
+<p><strong>The &quot;de.BUG&quot; move</strong> </br>
+Anytime you try and look for a clue, make a basic &quot;Controlled, Risky or Desperate&quot; move, then show an icon from the &quot;Story Ideas&quot; Pocketmod page. Treat the icon as an inspiration for an actual clue.</p>
+</blockquote>
+<blockquote>
+<p><strong>The &quot;dream.HACK&quot; move</strong> </br>
+When you theorize using at least 5 clues, roll a 1d6 </br> &gt; <strong>1-3</strong> : The theory is wrong, roll a 1d6 to find out which clue is misleading</p>
+</blockquote>
+<p><strong>Positive Tags</strong> :
+Techie
+Charismatic
+Hacker
+Cybernetic
+Stealthy
+Multilingual</p>
+<p><strong>Negative Tags</strong> :
+Paranoia
+Addiction
+Malfunction
+Reckless
+Slow
+Short-Circuited</p>
+<p><strong>Locations</strong> : The Hyperion Gate, Redline Arena, NeonGrid Sector 7, CryoTek BioLabs</p>
+<h2 id="elder-realms-retired-adventurers-guild">Elder Realms: Retired Adventurers Guild</h2>
+<p><strong>Premise</strong> : The heroes who once lived these stories have hung up their swords, stowed away their spellbooks, and retired to lives of relative peace. However, the call of adventure never truly fades. &quot;Elder Realms&quot; invites players to step into the boots of these seasoned veterans, now grizzled and wise with age, as they are drawn back into the fray for one last epic quest.</p>
+<h4 id="moves">Moves</h4>
+<blockquote>
+<p><strong>The &quot;Always Prepared&quot; move</strong> </br>
+Anytime you need a specific object (like a tool or weapon), You have it. Create it like a positive tag created from the &quot;Remember When?&quot; move.</p>
+</blockquote>
+<blockquote>
+<p><strong>The &quot;Wild Magic&quot; move</strong> </br>
+Magic is chaotic, and requires you to find a scroll for its one time use. Anytime you find a scroll, pick a square from the &quot;Story Ideas&quot; Pocketmod page. That is the spell. Use with another move.</p>
+</blockquote>
+<p><strong>Positive Tags</strong> :
+Mentor
+Wide
+Steadfast
+Patient
+Brave
+Cunning</p>
+<p><strong>Negative Tags</strong> :
+Stubborn
+Forgetful
+Cynical
+Arthritic
+Inflexible
+Tired</p>
+<p><strong>Locations</strong> : Dragon's Rest, Misty Moorlands, Stormwatch Tower, Sacred Grove</p>
+<h2 id="roll-tables-for-gm">Roll Tables for GM</h2>
+<p><strong>The change is a</strong> : Thing
+Entity
+Object
+Event
+Idea
+Process
+State
+Action
+Quality</p>
+<p><strong>Vision Oracle</strong> : This generates a virtual tarot card using words. Roll a d100, (1d6 times). The first word is the main concept or &quot;root&quot;, each additional word adds additional details to the root.</p>
+<blockquote>
+<p><strong>Example</strong> : 1d6 = 4: so roll d100 4 times: 58, 72, 44, 21 </br>
+(writing rock moon family) Interpreted as &quot;A science book of the solar system&quot;</p>
+</blockquote>
+<ol>
+<li>yes</li>
+<li>no</li>
+<li>everything</li>
+<li>nothing</li>
+<li>after</li>
+<li>animal</li>
+<li>before</li>
+<li>smell</li>
+<li>possession</li>
+<li>battle</li>
+<li>stick</li>
+<li>beginning</li>
+<li>body</li>
+<li>mouth</li>
+<li>good</li>
+<li>obligation</li>
+<li>show</li>
+<li>gift</li>
+<li>difficult</li>
+<li>electric</li>
+<li>family</li>
+<li>woman</li>
+<li>final</li>
+<li>fire</li>
+<li>picture</li>
+<li>path</li>
+<li>group</li>
+<li>law</li>
+<li>box</li>
+<li>feces</li>
+<li>dark</li>
+<li>ability</li>
+<li>head</li>
+<li>remain</li>
+<li>colorful</li>
+<li>heart</li>
+<li>thing</li>
+<li>cold</li>
+<li>adjacent</li>
+<li>rise</li>
+<li>line</li>
+<li>location</li>
+<li>play</li>
+<li>moon</li>
+<li>light</li>
+<li>create</li>
+<li>bad</li>
+<li>person</li>
+<li>food</li>
+<li>hand</li>
+<li>possibility</li>
+<li>great</li>
+<li>table</li>
+<li>small</li>
+<li>sight</li>
+<li>money</li>
+<li>word</li>
+<li>writing</li>
+<li>new</li>
+<li>number</li>
+<li>different</li>
+<li>discussion</li>
+<li>bread</li>
+<li>past</li>
+<li>think</li>
+<li>component</li>
+<li>power</li>
+<li>fast</li>
+<li>weird</li>
+<li>reason</li>
+<li>sleep</li>
+<li>rock</li>
+<li>circle</li>
+<li>clothing</li>
+<li>spiritual</li>
+<li>knowledge</li>
+<li>sky</li>
+<li>center</li>
+<li>sun</li>
+<li>sound</li>
+<li>sweet</li>
+<li>above</li>
+<li>time</li>
+<li>earth</li>
+<li>take</li>
+<li>down</li>
+<li>tool</li>
+<li>water</li>
+<li>plant</li>
+<li>become</li>
+<li>truth</li>
+<li>through</li>
+<li>man</li>
+<li>life</li>
+<li>want</li>
+</ol>
+<h2 id="character-quests">Character Quests</h2>
+<blockquote>
+<p>The Hero's Journey: A character embarks on an adventure, faces trials, receives aid, overcomes a climax, and returns transformed.</p>
+</blockquote>
+<p>Before each session create a quest for your character targeting one of the following paths. Feel free to make it vague and fill in the details during play. At the end of the session, if you did the <strong>&quot;Journey of Transformation&quot;</strong> move, gain a level.</p>
+<ol>
+<li>Identity</li>
+<li>Vengeance</li>
+<li>Knowledge</li>
+<li>Saving Others</li>
+<li>Love</li>
+<li>Power</li>
+<li>Honor</li>
+<li>Redemption</li>
+<li>Freedom</li>
+<li>Survival</li>
+</ol>
+
+</body>
+</html>

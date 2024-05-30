@@ -1,10 +1,14 @@
 # Pocketmod RPG System
 
+<div style="page-break-after: always;"></div>
+
 ## What is this about?
 
 Pocketmod RPG is a TTRPG system where you role-play in a variety of settings, inspired by PbtA.
 
 The main goal of this game is to provide a "dice-less" TTRPG experience you can fit in your pocket. (and play in line at theme parks!) It's rules-lite and uses a single d6 for resolutions using the "dice roller" Pocketmod tool. [see Pocketmod.com](http://pocketmod.com)
+
+<div style="page-break-after: always;"></div>
 
 ## How does it work?
 
@@ -18,6 +22,8 @@ The GM should ask questions and paint the world. They will also create complicat
 ### Safety
 
 Before you start a session make sure everyone is comfortable with the tone, topics & themes that may appear. Everyone should also understand the **"Fade to Black" move**.
+
+<div style="page-break-after: always;"></div>
 
 ## Character Creation
 
@@ -96,6 +102,8 @@ Valiant
 Wise
 Witty
 
+<div style="page-break-after: always;"></div>
+
 #### Negative Tags
 
 Angry
@@ -136,6 +144,8 @@ Volatile
 ### Tags Explained
 
 Tags help describe your character and they are also used as a mechanic to change your fate. A tag always has a tier (between 1 & 3). If the outcome of a roll is unfavorable, use the "That's not what I heard!" basic move with one of your tags to change the die result. If a tag ever becomes a tier 0, it is removed and instead becomes a negative tag at -1 tier. Please keep all your tags relevant to the narrative. Be aware that just because you lose a tag like your "animal" tag, doesn't mean you are no longer an animal, it just means you are questioning, or feeling bad about this part of your nature. Tags are regenerated during various moves, so track your tags' tiers separately; so you can always reset them.
+
+<div style="page-break-after: always;"></div>
 
 ### Destiny Table
 
@@ -184,6 +194,8 @@ Most moves have you roll against the destiny table.
 > **The "Fade to Black" move** </br>
 > Anytime and for any reason (no questions asked) any participant may say "Fade to Black" immediately stopping a scene that is becoming uncomfortable.
 
+<div style="page-break-after: always;"></div>
+
 ## Storybooks
 
 The following are a series of Storybooks with different settings, moves and mechanics for role-play.
@@ -222,6 +234,8 @@ Scheming
 
 **Locations** : The Elderwood, Timber Town, Glimmering Grotto, Thunder Peak
 
+<div style="page-break-after: always;"></div>
+
 ## Somnium Nexus: CyberDream Infiltration
 
 **Premise** : The year is 24XX and you are cyber-punk detectives that can hack into peoples minds for surreal sleuthing inside their dreams. Hacking into someones dreams can help you find clues, but also their internal demons may manifest there. Can you find the clues and solve the mystery before going mad?
@@ -251,6 +265,8 @@ Slow
 Short-Circuited
 
 **Locations** : The Hyperion Gate, Redline Arena, NeonGrid Sector 7, CryoTek BioLabs
+
+<div style="page-break-after: always;"></div>
 
 ## Elder Realms: Retired Adventurers Guild
 
@@ -282,7 +298,9 @@ Tired
 
 **Locations** : Dragon's Rest, Misty Moorlands, Stormwatch Tower, Sacred Grove
 
-## Roll Tables for GM
+<div style="page-break-after: always;"></div>
+
+## Roll Tables & Tools for GM
 
 **The change is a** : Thing
 Entity
@@ -394,6 +412,8 @@ Quality
 1. man
 1. life
 1. want
+
+<div style="page-break-after: always;"></div>
 
 ## Character Quests
 
