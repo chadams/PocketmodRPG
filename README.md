@@ -8,11 +8,11 @@ The main goal of this game is to provide a "dice-less" TTRPG experience you can 
 
 ## How does it work?
 
-This game is a discussion between the storyteller and the players. The storyteller will help guide the players by creating obstacles when narratively necessary. It is however, the players who mainly drive the story. The characters play using their "moves". Each move has a trigger and an effect and may also trigger other moves. If a character triggers a move immediately perform the move and/or moves and then continue the story.
+This game is a discussion between the GM (a.k.a "Game Master") and the players. The GM will help guide the players by creating obstacles when narratively necessary. It is however, the players who mainly drive the story. The characters play using their "moves". Each move has a trigger and an effect and may also trigger other moves. If a character triggers a move immediately perform the move and/or moves and then continue the story.
 
 ```
 Example:
-If a character is to act in a way where the outcome is unknown and the situation is "risky" then this is "The Risky Move". Roll a d6 and check the result on the destiny table. The storyteller fully narrates the outcome. The player then can resist that outcome by using the "That's not what I heard!" basic move to make adjustments on the tables rank. The storyteller then narrates the new outcome.
+If a character is to act in a way where the outcome is unknown and the situation is "risky" then this is "The Risky Move". Roll a d6 and check the result on the destiny table. The GM fully narrates the outcome. The player then can resist that outcome by using the "That's not what I heard!" basic move to make adjustments on the tables rank. The GM then narrates the new outcome.
 ```
 
 ### Character Creation
@@ -149,14 +149,14 @@ Most moves have you roll against the destiny table.
 ### Basic Moves
 
 > **The Controlled Move** </br>
-> The character does something where the result is unknown in a controlled environment. (_ex. Nobody's around, there's no alarm system_) Roll 1d6+1, then the storyteller continues.
+> The character does something where the result is unknown in a controlled environment. (_ex. Nobody's around, there's no alarm system_) Roll 1d6+1, then the GM continues.
 
 > **The Risky Move** </br>
-> The character does something where the result is unknown in a risky situation. (_ex. A guard is coming or there's an alarm system_) Roll 1d6, then the storyteller continues.
+> The character does something where the result is unknown in a risky situation. (_ex. A guard is coming or there's an alarm system_) Roll 1d6, then the GM continues.
 > </br>**6**: Great effect, also ( _tag_+1 ) , **1**: ( _tag_-1 )
 
 > **The Desperate Move** </br>
-> The character does something where the result is unknown in a desperate situation. (_ex. A guard is running at you with sword drawn_) Roll 1d6, then the storyteller continues.
+> The character does something where the result is unknown in a desperate situation. (_ex. A guard is running at you with sword drawn_) Roll 1d6, then the GM continues.
 > </br>**6**: Great effect, also ( _tag_+2 ) , **1-3**: ( _tag_-1 )
 
 > **The "That's not what I heard!" Move** </br>
@@ -173,6 +173,9 @@ Most moves have you roll against the destiny table.
 
 > **The "Remember When?" move** </br>
 > Anytime you really want to do something but you don't have the right tag for it, then use this move. First, Give a quick "flash back" scene proving you have that tag. Then give yourself that temporary tag. Make a note linking that tag to another one of your character tags and set it to the same tier. They now increase and decrease together. If you lose the tag you lose them both, but only one negative tag is created.
+
+> **The "Journey of Transformation" move** </br>
+> Each session a character is given a quest used for advancement in that session. If you create a scene about overcoming your quest, mark it as completed. You will gain a level at the end of the session. _see GM quests_
 
 > **The "Fade to Black" move** </br>
 > Anytime and for any reason (no questions asked) any participant may say "Fade to Black" immediately stopping a scene that is becoming uncomfortable.
@@ -387,3 +390,20 @@ Quality
 1. man
 1. life
 1. want
+
+## Character Quests
+
+> The Hero's Journey: A character embarks on an adventure, faces trials, receives aid, overcomes a climax, and returns transformed.
+
+Before each session create a quest for your character targeting one of the following paths. Feel free to make it vague and fill in the details during play. At the end of the session, if you did the **"Journey of Transformation"** move, gain a level.
+
+1. Identity
+1. Vengeance
+1. Knowledge
+1. Saving Others
+1. Love
+1. Power
+1. Honor
+1. Redemption
+1. Freedom
+1. Survival
