@@ -15,11 +15,11 @@ This game is a discussion between the GM (a.k.a "Game Master") and the players. 
 
 The GM should ask questions and paint the world. They will also create complications and obstacles for the players to keep things interesting.
 
-## Safety
+### Safety
 
 Before you start a session make sure everyone is comfortable with the tone, topics & themes that may appear. Everyone should also understand the **"Fade to Black" move**.
 
-### Character Creation
+## Character Creation
 
 |                     |                                                         |
 | ------------------- | ------------------------------------------------------- |
