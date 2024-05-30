@@ -323,7 +323,16 @@ Before each session create a quest ( _a.k.a goal_ ) for your character Use the f
 
 ## GM Guide
 
-Pocketmod RPG should be as low prep a possible. An easy way to prepare for a session is ask questions of the players and look over their characters quests/goals. This should help you formulate what kinda of game the players expect. Then, create a few groups and/or factions with opposing goals. You can pull content from these as needed such as scenarios and NPCs.
+Pocketmod RPG should be as low prep a possible. An easy way to prepare for a session is ask questions of the players and look over their characters quests/goals. This should help you formulate what kinda of game the players expect. Then, create a few groups and/or factions with opposing goals. You can pull content from these as needed to create scenarios and NPCs.
+
+To create an interesting scenario or encounter on the fly, follow these steps.
+
+1. Consider the players quests, and have them make goals
+1. Consider the location where their quests/goals may be achieved
+1. Create one or more factions/NPC with overlapping or conflicting goals
+1. Optionally, add a factions/NPC with a player aligned goal
+1. From these overlapping goals and locations, consider what type of conflict might we expect.
+1. Finally, choose rewards available for achieving goals.
 
 <div style="page-break-after: always;"></div>
 
