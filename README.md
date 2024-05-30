@@ -10,10 +10,14 @@ The main goal of this game is to provide a "dice-less" TTRPG experience you can 
 
 This game is a discussion between the GM (a.k.a "Game Master") and the players. The GM will help guide the players by creating obstacles when narratively necessary. It is however, the players who mainly drive the story. The characters play using their "moves". Each move has a trigger and an effect and may also trigger other moves. If a character triggers a move immediately perform the move and/or moves and then continue the story.
 
-```
-Example:
-If a character is to act in a way where the outcome is unknown and the situation is "risky" then this is "The Risky Move". Roll a d6 and check the result on the destiny table. The GM fully narrates the outcome. The player then can resist that outcome by using the "That's not what I heard!" basic move to make adjustments on the tables rank. The GM then narrates the new outcome.
-```
+> Example:</br>
+> If a character is to act in a way where the outcome is unknown and the situation is "risky" then this is "The Risky Move". Roll a d6 and check the result on the destiny table. The GM fully narrates the outcome. The player then can resist that outcome by using the "That's not what I heard!" basic move to make adjustments on the tables rank. The GM then narrates the new outcome.
+
+The GM should ask questions and paint the world. They will also create complications and obstacles for the players to keep things interesting.
+
+## Safety
+
+Before you start a session make sure everyone is comfortable with the tone, topics & themes that may appear. Everyone should also understand the **"Fade to Black" move**.
 
 ### Character Creation
 
