@@ -143,7 +143,9 @@ Volatile
 
 ### Tags Explained
 
-Tags help describe your character and they are also used as a mechanic to change your fate. A tag always has a tier (between 1 & 3). If the outcome of a roll is unfavorable, use the "That's not what I heard!" basic move with one of your tags to change the die result. If a tag ever becomes a tier 0, it is removed and instead becomes a negative tag at -1 tier. Please keep all your tags relevant to the narrative. Be aware that just because you lose a tag like your "animal" tag, doesn't mean you are no longer an animal, it just means you are questioning, or feeling bad about this part of your nature. Tags are regenerated during various moves, so track your tags' tiers separately; so you can always reset them.
+Tags help describe your character and they are also used as a mechanic to change your fate. A tag always has a tier (between 1 & 3). If the outcome of a roll is unfavorable, use the **"That's not what I heard!"** basic move with one of your tags to change the die result. If a tag ever becomes a tier 0, it is removed and instead becomes a negative tag at -1 tier. Please keep all your tags relevant to the narrative.
+
+Be aware that just because you lose a tag like your "animal" tag, doesn't mean you are no longer an animal, it just means you are questioning, or feeling bad about this part of your nature. Tags are regenerated during various moves, so track your tags' tiers separately; so you can always reset them.
 
 <div style="page-break-after: always;"></div>
 
